@@ -1,0 +1,32 @@
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  font-family: Arial, sans-serif;
+}
+
+.form-grid,
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+}
+
+.form-grid {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+select,
+input,
+button {
+  padding: 0.6rem;
+}
+
+.error {
+  color: #b00020;
+}
