@@ -1,4 +1,4 @@
-﻿using VehicleLookup.Application.DTOs;
+using VehicleLookup.Application.DTOs;
 using VehicleLookup.Application.Interfaces;
 
 namespace VehicleLookup.Application.Services
@@ -12,13 +12,13 @@ namespace VehicleLookup.Application.Services
             _nhtsaClient = nhtsaClient;
         }
 
-        public async Task<object> GetAllMakesAsync()
+        public async Task<object?> GetAllMakesAsync()
             => await _nhtsaClient.GetMakesAsync();
 
-        public async Task<object> GetVehicleTypesByMakeIdAsync(int makeId)
+        public async Task<object?> GetVehicleTypesByMakeIdAsync(int makeId)
             => await _nhtsaClient.GetVehicleTypesAsync(makeId);
 
-        public async Task<object> GetModelsAsync(ModelSearchRequest request)
+        public async Task<object?> GetModelsAsync(ModelSearchRequest request)
             => await _nhtsaClient.GetModelsAsync(request.MakeId, request.Year);
     }
 }

@@ -1,0 +1,43 @@
+<div class="container">
+  <h1>Vehicle Lookup</h1>
+
+  <div class="form-grid">
+    <label>
+      Car Make
+      <select [(ngModel)]="selectedMakeId" (change)="onMakeChange()">
+        <option [ngValue]="undefined">Select make</option>
+        <option *ngFor="let make of makes" [ngValue]="make.Make_ID">
+          {{ make.Make_Name }}
+        </option>
+      </select>
+    </label>
+
+    <label>
+      Manufacture Year
+      <input type="number" [(ngModel)]="selectedYear" min="1900" max="2100" />
+    </label>
+  </div>
+
+  <button (click)="searchModels()" [disabled]="!selectedMakeId || loading">
+    Search Models
+  </button>
+
+  <p *ngIf="loading">Loading...</p>
+  <p *ngIf="errorMessage" class="error">{{ errorMessage }}</p>
+
+  <div class="results-grid">
+    <section>
+      <h2>Available Vehicle Types</h2>
+      <ul>
+        <li *ngFor="let type of vehicleTypes">{{ type.VehicleTypeName }}</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Available Models</h2>
+      <ul>
+        <li *ngFor="let model of models">{{ model.Model_Name }}</li>
+      </ul>
+    </section>
+  </div>
+</div>
