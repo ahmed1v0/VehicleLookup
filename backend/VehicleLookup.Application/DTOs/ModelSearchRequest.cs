@@ -1,4 +1,3 @@
-﻿
 using System.ComponentModel.DataAnnotations;
 
 namespace VehicleLookup.Application.DTOs
@@ -13,4 +12,3 @@ namespace VehicleLookup.Application.DTOs
         public int Year { get; set; }
     }
 }
-
