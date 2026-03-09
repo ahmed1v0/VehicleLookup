@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="VehicleLookup.Api/VehicleLookup.Api.csproj" />
+  <Project Path="VehicleLookup.Application/VehicleLookup.Application.csproj" />
+  <Project Path="VehicleLookup.Infrastructure/VehicleLookup.Infrastructure.csproj" />
+</Solution>

@@ -1,0 +1,11 @@
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\bin\Debug\net10.0\VehicleLookup.Domain.deps.json
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\bin\Debug\net10.0\VehicleLookup.Domain.dll
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\bin\Debug\net10.0\VehicleLookup.Domain.pdb
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\obj\Debug\net10.0\VehicleLookup.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\obj\Debug\net10.0\VehicleLookup.Domain.AssemblyInfoInputs.cache
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\obj\Debug\net10.0\VehicleLookup.Domain.AssemblyInfo.cs
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\obj\Debug\net10.0\VehicleLookup.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\obj\Debug\net10.0\VehicleLookup.Domain.dll
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\obj\Debug\net10.0\refint\VehicleLookup.Domain.dll
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\obj\Debug\net10.0\VehicleLookup.Domain.pdb
+D:\Projects\CarSolution\backend\VehicleLookup.Domain\obj\Debug\net10.0\ref\VehicleLookup.Domain.dll

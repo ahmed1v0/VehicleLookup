@@ -1,0 +1,17 @@
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\bin\Debug\net10.0\VehicleLookup.Infrastructure.deps.json
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\bin\Debug\net10.0\VehicleLookup.Infrastructure.dll
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\bin\Debug\net10.0\VehicleLookup.Infrastructure.pdb
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\bin\Debug\net10.0\VehicleLookup.Application.dll
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\bin\Debug\net10.0\VehicleLookup.Domain.dll
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\bin\Debug\net10.0\VehicleLookup.Application.pdb
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\bin\Debug\net10.0\VehicleLookup.Domain.pdb
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\VehicleLookup.Infrastructure.csproj.AssemblyReference.cache
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\VehicleLookup.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\VehicleLookup.Infrastructure.AssemblyInfoInputs.cache
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\VehicleLookup.Infrastructure.AssemblyInfo.cs
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\VehicleLookup.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\VehicleL.E1B39236.Up2Date
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\VehicleLookup.Infrastructure.dll
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\refint\VehicleLookup.Infrastructure.dll
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\VehicleLookup.Infrastructure.pdb
+D:\Projects\CarSolution\backend\VehicleLookup.Infrastructure\obj\Debug\net10.0\ref\VehicleLookup.Infrastructure.dll

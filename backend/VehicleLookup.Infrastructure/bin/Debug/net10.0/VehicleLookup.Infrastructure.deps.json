@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "VehicleLookup.Infrastructure/1.0.0": {
+        "dependencies": {
+          "VehicleLookup.Application": "1.0.0",
+          "VehicleLookup.Domain": "1.0.0"
+        },
+        "runtime": {
+          "VehicleLookup.Infrastructure.dll": {}
+        }
+      },
+      "VehicleLookup.Application/1.0.0": {
+        "dependencies": {
+          "VehicleLookup.Domain": "1.0.0"
+        },
+        "runtime": {
+          "VehicleLookup.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "VehicleLookup.Domain/1.0.0": {
+        "runtime": {
+          "VehicleLookup.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VehicleLookup.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleLookup.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "VehicleLookup.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
