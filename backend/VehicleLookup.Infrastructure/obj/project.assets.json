@@ -5,24 +5,11 @@
       "VehicleLookup.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "VehicleLookup.Domain": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/VehicleLookup.Application.dll": {}
         },
         "runtime": {
           "bin/placeholder/VehicleLookup.Application.dll": {}
-        }
-      },
-      "VehicleLookup.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "compile": {
-          "bin/placeholder/VehicleLookup.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/VehicleLookup.Domain.dll": {}
         }
       }
     }
@@ -32,22 +19,15 @@
       "type": "project",
       "path": "../VehicleLookup.Application/VehicleLookup.Application.csproj",
       "msbuildProject": "../VehicleLookup.Application/VehicleLookup.Application.csproj"
-    },
-    "VehicleLookup.Domain/1.0.0": {
-      "type": "project",
-      "path": "../VehicleLookup.Domain/VehicleLookup.Domain.csproj",
-      "msbuildProject": "../VehicleLookup.Domain/VehicleLookup.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "VehicleLookup.Application >= 1.0.0",
-      "VehicleLookup.Domain >= 1.0.0"
+      "VehicleLookup.Application >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ahmed samer\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ahmed samer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -58,10 +38,8 @@
       "packagesPath": "C:\\Users\\ahmed samer\\.nuget\\packages\\",
       "outputPath": "D:\\Projects\\CarSolution\\backend\\VehicleLookup.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
+        "D:\\Projects\\CarSolution\\backend\\NuGet.Config",
         "C:\\Users\\ahmed samer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -70,7 +48,6 @@
         "net10.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -79,9 +56,6 @@
           "projectReferences": {
             "D:\\Projects\\CarSolution\\backend\\VehicleLookup.Application\\VehicleLookup.Application.csproj": {
               "projectPath": "D:\\Projects\\CarSolution\\backend\\VehicleLookup.Application\\VehicleLookup.Application.csproj"
-            },
-            "D:\\Projects\\CarSolution\\backend\\VehicleLookup.Domain\\VehicleLookup.Domain.csproj": {
-              "projectPath": "D:\\Projects\\CarSolution\\backend\\VehicleLookup.Domain\\VehicleLookup.Domain.csproj"
             }
           }
         }

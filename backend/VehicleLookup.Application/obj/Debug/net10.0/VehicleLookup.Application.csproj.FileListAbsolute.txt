@@ -1,14 +1,11 @@
 D:\Projects\CarSolution\backend\VehicleLookup.Application\bin\Debug\net10.0\VehicleLookup.Application.deps.json
 D:\Projects\CarSolution\backend\VehicleLookup.Application\bin\Debug\net10.0\VehicleLookup.Application.dll
 D:\Projects\CarSolution\backend\VehicleLookup.Application\bin\Debug\net10.0\VehicleLookup.Application.pdb
-D:\Projects\CarSolution\backend\VehicleLookup.Application\bin\Debug\net10.0\VehicleLookup.Domain.dll
-D:\Projects\CarSolution\backend\VehicleLookup.Application\bin\Debug\net10.0\VehicleLookup.Domain.pdb
-D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\VehicleLookup.Application.csproj.AssemblyReference.cache
 D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\VehicleLookup.Application.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\VehicleLookup.Application.AssemblyInfoInputs.cache
 D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\VehicleLookup.Application.AssemblyInfo.cs
 D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\VehicleLookup.Application.csproj.CoreCompileInputs.cache
-D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\VehicleL.05550200.Up2Date
+D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\VehicleLookup.Application.sourcelink.json
 D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\VehicleLookup.Application.dll
 D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\refint\VehicleLookup.Application.dll
 D:\Projects\CarSolution\backend\VehicleLookup.Application\obj\Debug\net10.0\VehicleLookup.Application.pdb
