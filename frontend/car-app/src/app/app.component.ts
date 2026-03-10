@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import {
+  ApiResponse,
   Make,
   Model,
   VehicleApiService,
@@ -40,7 +41,7 @@ export class AppComponent {
 
     this.setLoadingState();
     this.vehicleApiService.getVehicleTypes(this.selectedMakeId).subscribe({
-      next: (response) => {
+      next: (response: ApiResponse<VehicleType>) => {
         this.vehicleTypes = response.Results;
         this.loading = false;
       },
@@ -55,7 +56,7 @@ export class AppComponent {
 
     this.setLoadingState();
     this.vehicleApiService.getModels(this.selectedMakeId, this.selectedYear).subscribe({
-      next: (response) => {
+      next: (response: ApiResponse<Model>) => {
         this.models = response.Results;
         this.loading = false;
       },
@@ -66,7 +67,7 @@ export class AppComponent {
   private loadMakes(): void {
     this.setLoadingState();
     this.vehicleApiService.getMakes().subscribe({
-      next: (response) => {
+      next: (response: ApiResponse<Make>) => {
         this.makes = response.Results;
         this.loading = false;
       },

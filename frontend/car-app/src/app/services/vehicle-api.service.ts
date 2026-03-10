@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { Observable } from 'rxjs';
 import { environment } from '../../environments/environment';
 
 export interface ApiResponse<T> {
@@ -28,15 +27,15 @@ export class VehicleApiService {
 
   constructor(private readonly http: HttpClient) {}
 
-  getMakes(): Observable<ApiResponse<Make>> {
+  getMakes() {
     return this.http.get<ApiResponse<Make>>(`${this.baseUrl}/makes`);
   }
 
-  getVehicleTypes(makeId: number): Observable<ApiResponse<VehicleType>> {
+  getVehicleTypes(makeId: number) {
     return this.http.get<ApiResponse<VehicleType>>(`${this.baseUrl}/makes/${makeId}/types`);
   }
 
-  getModels(makeId: number, year: number): Observable<ApiResponse<Model>> {
+  getModels(makeId: number, year: number) {
     const params = new HttpParams()
       .set('makeId', makeId)
       .set('year', year);
