@@ -5,7 +5,6 @@ WORKDIR /src
 # 1. Copy ALL csproj files first (this is where most people fail)
 COPY ["VehicleLookup.Api/VehicleLookup.Api.csproj", "VehicleLookup.Api/"]
 COPY ["VehicleLookup.Application/VehicleLookup.Application.csproj", "VehicleLookup.Application/"]
-COPY ["VehicleLookup.Domain/VehicleLookup.Domain.csproj", "VehicleLookup.Domain/"]
 COPY ["VehicleLookup.Infrastructure/VehicleLookup.Infrastructure.csproj", "VehicleLookup.Infrastructure/"]
 RUN dotnet restore "VehicleLookup.Api/VehicleLookup.Api.csproj"
 
