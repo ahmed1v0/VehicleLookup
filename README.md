@@ -103,7 +103,7 @@ Reconnect SSH session, then install compose plugin if needed.
 ### 3) Deploy app
 
 ```bash
-git clone <your-repo-url>.git
+git clone (https://github.com/ahmed1v0/VehicleLookup.git)
 cd VehicleLookup
 docker compose up -d --build
 ```

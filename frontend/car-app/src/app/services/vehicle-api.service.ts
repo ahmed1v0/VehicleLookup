@@ -1,25 +1,10 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { environment } from '../../environments/environment';
-
-export interface ApiResponse<T> {
-  Results: T[];
-}
-
-export interface Make {
-  Make_ID: number;
-  Make_Name: string;
-}
-
-export interface VehicleType {
-  VehicleTypeId: number;
-  VehicleTypeName: string;
-}
-
-export interface Model {
-  Model_ID: number;
-  Model_Name: string;
-}
+import { Model } from '../types/Model';
+import { VehicleType } from '../types/VehicleType';
+import { Make } from '../types/Make';
+import { ApiResponse } from '../types/ApiResponse';
 
 @Injectable({ providedIn: 'root' })
 export class VehicleApiService {

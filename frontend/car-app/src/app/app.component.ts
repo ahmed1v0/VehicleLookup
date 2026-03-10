@@ -2,12 +2,11 @@ import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import {
-  ApiResponse,
-  Make,
-  Model,
-  VehicleApiService,
-  VehicleType
-} from './services/vehicle-api.service';
+  VehicleApiService} from './services/vehicle-api.service';
+import { ApiResponse } from './types/ApiResponse';
+import { Make } from './types/Make';
+import { VehicleType } from './types/VehicleType';
+import { Model } from './types/Model';
 
 @Component({
   selector: 'app-root',
